@@ -16,7 +16,7 @@ This project provides a lightweight graphical interface to generate images from 
 
 ## 🧠 Source Code Overview
 
-### `main.py`
+### `main.ipynb`
 
 ```python
 from customtkinter import *  # Modern tkinter UI
@@ -64,12 +64,12 @@ root.mainloop()
 
 
 🛠️ Development Environment Setup
-1. Python Version
-Ensure you have Python 3.8+ installed. You can check with:
-python --version
+1. thon Version
+Ensure you have thon 3.8+ installed. You can check with:
+thon --version
 
 2. Create a Virtual Environment (Optional but Recommended)
-python -m venv venv
+thon -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install Required Libraries:
@@ -87,7 +87,7 @@ StableDiffusionPipeline.from_pretrained(
 )
 
 🚀 Run the Application
-python main.py
+thon main.ipynb
 Type a prompt like: "a spaceship flying through a rainbow galaxy"
 Click Generate
 Your image will appear
@@ -95,7 +95,7 @@ Your image will appear
 📂 Project Structure
 stable-diffusion-gui/
 │
-├── main.py             # Main application script
+├── main.ipynb          # Main application script
 ├── README.md           # Project documentation
 └── generatedimage.png  # Saved output (after generation)
 
